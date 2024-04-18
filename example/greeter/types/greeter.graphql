@@ -1,0 +1,19 @@
+type HelloRequest {
+    name: String!
+}
+
+type HelloReply {
+    message: String!
+}
+
+type GoodbyeRequest {
+    name: String!
+}
+
+type GoodbyeReply {
+    message: String!
+}
+
+enum Foo {
+    BAR
+}
