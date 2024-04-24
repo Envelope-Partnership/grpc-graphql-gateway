@@ -1,4 +1,4 @@
-module github.com/ysugimoto/grpc-graphql-gateway
+module github.com/envelope-org/grpc-graphql-gateway
 
 go 1.15
 

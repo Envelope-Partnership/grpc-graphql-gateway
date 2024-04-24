@@ -8,8 +8,8 @@ package starwars
 
 import (
 	context "context"
+	_ "github.com/envelope-org/grpc-graphql-gateway/graphql"
 	proto "github.com/golang/protobuf/proto"
-	_ "github.com/ysugimoto/grpc-graphql-gateway/graphql"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

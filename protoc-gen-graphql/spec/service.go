@@ -1,10 +1,10 @@
 package spec
 
 import (
+	"github.com/envelope-org/grpc-graphql-gateway/graphql"
 	// nolint: staticcheck
 	"github.com/golang/protobuf/proto"
 	descriptor "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	"github.com/ysugimoto/grpc-graphql-gateway/graphql"
 )
 
 // Service spec wraps ServiceDescriptorProto with GraphqlService option.
