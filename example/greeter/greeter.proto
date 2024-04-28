@@ -45,3 +45,7 @@ message GoodbyeRequest {
 message GoodbyeReply {
   string message = 1;
 }
+
+enum Foo {
+  BAR = 0;
+}
